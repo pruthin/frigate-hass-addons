@@ -53,6 +53,9 @@ arch:
   - aarch64
 map:
   - "media:rw"
+  - type: share
+    read_only: false
+    path: /run/mxa_manager
   - "addon_config:rw"
   - "homeassistant_config:rw"
   - "ssl"
